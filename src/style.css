@@ -741,3 +741,27 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+/* Contact Section Styling */
+.contact-section {
+  z-index: 1;
+  position: relative;
+  padding-top: 110px; /* matches the space under navbar */
+  padding-bottom: 50px; /* some space before footer */
+  background-color: #0d0d0d; /* same dark theme as other sections */
+  min-height: 100vh; /* ensures it fills at least full viewport height */
+}
+
+.contact-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(248, 244, 251, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
