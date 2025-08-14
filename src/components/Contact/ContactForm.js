@@ -36,7 +36,7 @@ const ContactForm = () => {
     return (
         <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formName" className="mb-3">
-                <Form.Label>Name</Form.Label>
+                <Form.Label style={{ color: 'white' }}>Name</Form.Label>
                 <Form.Control
                     type="text"
                     name="name"
@@ -48,7 +48,7 @@ const ContactForm = () => {
             </Form.Group>
 
             <Form.Group controlId="formEmail" className="mb-3">
-                <Form.Label>Email</Form.Label>
+                <Form.Label style={{ color: 'white' }}>Email</Form.Label>
                 <Form.Control
                     type="email"
                     name="email"
@@ -60,7 +60,7 @@ const ContactForm = () => {
             </Form.Group>
 
             <Form.Group controlId="formMessage" className="mb-3">
-                <Form.Label>Message</Form.Label>
+                <Form.Label style={{ color: 'white' }}>Message</Form.Label>
                 <Form.Control
                     as="textarea"
                     rows={5}

@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
-import Particle from "../Particle";
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
@@ -18,7 +17,7 @@ const Contact = () => {
                 <Row className="justify-content-center" style={{ paddingBottom: "30px", textAlign: "center" }}>
                     <Col xs={4} md={2} className="contact-icons" style={{ display: "flex", justifyContent: "center" }}>
                         <a
-                            href="https://linkedin.com/in/yourprofile"
+                            href="https:linkedin.com/in/john-bantu-5750b6188"
                             target="_blank"
                             rel="noreferrer"
                             className="icon-link"
@@ -28,14 +27,14 @@ const Contact = () => {
                     </Col>
 
                     <Col xs={4} md={2} className="contact-icons" style={{ display: "flex", justifyContent: "center" }}>
-                        <a href="mailto:youremail@example.com" className="icon-link">
+                        <a href="mailto:johnvbliss7@gmail.com" className="icon-link">
                             <FaEnvelope size={40} color="#ffffff" />
                         </a>
                     </Col>
 
                     <Col xs={4} md={2} className="contact-icons" style={{ display: "flex", justifyContent: "center" }}>
                         <a
-                            href="https://github.com/yourgithub"
+                            href="https://github.com/blissjohn"
                             target="_blank"
                             rel="noreferrer"
                             className="icon-link"
